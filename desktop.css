@@ -1,0 +1,6 @@
+@media (min-width: 1280px) {
+    .list-container {
+        display: flex;
+        flex-direction: row;
+      }
+}

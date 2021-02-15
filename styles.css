@@ -49,11 +49,35 @@ iframe {
   border: 0;
 }
 
+/* your styles here */
+ul {
+  list-style-type: none;
+}
+
 button {
   background-color: #184269;
   color: white;
   border-radius: 5%;
-  padding: 10px;
 }
 
-/* your styles here */
+.image-div {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#coo {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+time {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-color: white;
+  color: #184269;
+  border-radius: 2%;
+}
+
