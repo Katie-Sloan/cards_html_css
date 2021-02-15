@@ -1,4 +1,4 @@
-@media (min-width: 1280px) and (max-device-width: 1500px) {
+@media (min-width: 1024px) and (max-device-width: 1200px) {
     .list-container {
         display: flex;
         flex-direction: row;
@@ -11,15 +11,8 @@
 
     .individual-card-container {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
-    } 
-
-    .individual-card-container > div {
-        flex: 0 50%;
     }
 
-    /* .image-div {
-        height: 100%;
-    } */
 }

@@ -58,12 +58,18 @@ button {
   background-color: #184269;
   color: white;
   border-radius: 5%;
+  margin: 10px;
+}
+
+button:hover {
+  color: hotpink;
+  box-shadow: 5px 5px;
 }
 
 .image-div {
   position: relative;
-  /* top: 0;
-  left: 0; */
+  top: 0;
+  left: 0;
 }
 
 #coo {
