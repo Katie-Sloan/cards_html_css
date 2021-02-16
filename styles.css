@@ -87,3 +87,6 @@ time {
   border-radius: 2%;
 }
 
+.individual-card-container > div > h1 {
+  color: #184269;
+}
