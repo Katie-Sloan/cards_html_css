@@ -1,0 +1,40 @@
+@media (min-width: 768px) and (max-device-width: 1023px) {
+    .list-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+    .list-container > li {
+        min-width: 700px;
+     } 
+
+     .individual-card-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    } 
+
+    .individual-card-container > div {
+        flex: 0 50%;
+    }
+
+    time {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        background-color: white;
+        color: #184269;
+        padding: 5px;
+        border-radius: 2px;
+    }
+
+    .card-title {
+        margin-left: 10px;
+    }
+    
+    p {
+        margin-left: 10px;
+    }
+
+}

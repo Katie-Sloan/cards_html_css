@@ -1,0 +1,22 @@
+@media (max-width: 500px) {
+    .list-container {
+        display: flex;
+        flex-direction: column;
+        flex-flow: row wrap;
+    }
+
+    .individual-card-container {
+        min-width: 300px;
+    } 
+
+    time {
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        background-color: white;
+        color: #184269;
+        padding: 5px;
+        border-radius: 2px;
+    }
+
+}
